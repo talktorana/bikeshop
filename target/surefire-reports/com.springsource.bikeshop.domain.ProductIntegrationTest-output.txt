@@ -1,5 +1,5 @@
-2016-06-28 22:47:38,547 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [C:\work\projects\bikeshop\target\test-classes\META-INF\spring\applicationContext-jpa.xml]
-2016-06-28 22:47:38,874 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5ad851c9] to prepare test instance [com.springsource.bikeshop.domain.ProductIntegrationTest@6156496]
+2016-06-28 23:42:26,555 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [C:\work\projects\bikeshop\target\test-classes\META-INF\spring\applicationContext-jpa.xml]
+2016-06-28 23:42:26,828 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5ad851c9] to prepare test instance [com.springsource.bikeshop.domain.ProductIntegrationTest@6156496]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:99)
 	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:122)
@@ -84,8 +84,8 @@ Caused by: java.lang.IllegalArgumentException
 	at org.springframework.asm.ClassReader.<init>(Unknown Source)
 	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:53)
 	... 62 more
-2016-06-28 22:47:38,889 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [C:\work\projects\bikeshop\target\test-classes\META-INF\spring\applicationContext-jpa.xml]
-2016-06-28 22:47:39,005 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5ad851c9] to prepare test instance [com.springsource.bikeshop.domain.ProductIntegrationTest@7adda9cc]
+2016-06-28 23:42:26,842 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [C:\work\projects\bikeshop\target\test-classes\META-INF\spring\applicationContext-jpa.xml]
+2016-06-28 23:42:26,947 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5ad851c9] to prepare test instance [com.springsource.bikeshop.domain.ProductIntegrationTest@7adda9cc]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:99)
 	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:122)
@@ -170,8 +170,8 @@ Caused by: java.lang.IllegalArgumentException
 	at org.springframework.asm.ClassReader.<init>(Unknown Source)
 	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:53)
 	... 62 more
-2016-06-28 22:47:39,014 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [C:\work\projects\bikeshop\target\test-classes\META-INF\spring\applicationContext-jpa.xml]
-2016-06-28 22:47:39,144 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5ad851c9] to prepare test instance [com.springsource.bikeshop.domain.ProductIntegrationTest@498d318c]
+2016-06-28 23:42:26,955 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [C:\work\projects\bikeshop\target\test-classes\META-INF\spring\applicationContext-jpa.xml]
+2016-06-28 23:42:27,052 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5ad851c9] to prepare test instance [com.springsource.bikeshop.domain.ProductIntegrationTest@498d318c]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:99)
 	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:122)
@@ -256,8 +256,8 @@ Caused by: java.lang.IllegalArgumentException
 	at org.springframework.asm.ClassReader.<init>(Unknown Source)
 	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:53)
 	... 62 more
-2016-06-28 22:47:39,169 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [C:\work\projects\bikeshop\target\test-classes\META-INF\spring\applicationContext-jpa.xml]
-2016-06-28 22:47:39,258 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5ad851c9] to prepare test instance [com.springsource.bikeshop.domain.ProductIntegrationTest@692f203f]
+2016-06-28 23:42:27,076 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [C:\work\projects\bikeshop\target\test-classes\META-INF\spring\applicationContext-jpa.xml]
+2016-06-28 23:42:27,156 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5ad851c9] to prepare test instance [com.springsource.bikeshop.domain.ProductIntegrationTest@692f203f]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:99)
 	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:122)
@@ -342,8 +342,8 @@ Caused by: java.lang.IllegalArgumentException
 	at org.springframework.asm.ClassReader.<init>(Unknown Source)
 	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:53)
 	... 62 more
-2016-06-28 22:47:39,268 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [C:\work\projects\bikeshop\target\test-classes\META-INF\spring\applicationContext-jpa.xml]
-2016-06-28 22:47:39,382 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5ad851c9] to prepare test instance [com.springsource.bikeshop.domain.ProductIntegrationTest@544fa968]
+2016-06-28 23:42:27,166 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [C:\work\projects\bikeshop\target\test-classes\META-INF\spring\applicationContext-jpa.xml]
+2016-06-28 23:42:27,272 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5ad851c9] to prepare test instance [com.springsource.bikeshop.domain.ProductIntegrationTest@544fa968]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:99)
 	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:122)
@@ -428,8 +428,8 @@ Caused by: java.lang.IllegalArgumentException
 	at org.springframework.asm.ClassReader.<init>(Unknown Source)
 	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:53)
 	... 62 more
-2016-06-28 22:47:39,446 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [C:\work\projects\bikeshop\target\test-classes\META-INF\spring\applicationContext-jpa.xml]
-2016-06-28 22:47:39,546 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5ad851c9] to prepare test instance [com.springsource.bikeshop.domain.ProductIntegrationTest@343570b7]
+2016-06-28 23:42:27,279 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [C:\work\projects\bikeshop\target\test-classes\META-INF\spring\applicationContext-jpa.xml]
+2016-06-28 23:42:27,409 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5ad851c9] to prepare test instance [com.springsource.bikeshop.domain.ProductIntegrationTest@343570b7]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:99)
 	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:122)
@@ -514,8 +514,8 @@ Caused by: java.lang.IllegalArgumentException
 	at org.springframework.asm.ClassReader.<init>(Unknown Source)
 	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:53)
 	... 62 more
-2016-06-28 22:47:39,561 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [C:\work\projects\bikeshop\target\test-classes\META-INF\spring\applicationContext-jpa.xml]
-2016-06-28 22:47:39,636 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5ad851c9] to prepare test instance [com.springsource.bikeshop.domain.ProductIntegrationTest@3514a4c0]
+2016-06-28 23:42:27,429 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [C:\work\projects\bikeshop\target\test-classes\META-INF\spring\applicationContext-jpa.xml]
+2016-06-28 23:42:27,516 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5ad851c9] to prepare test instance [com.springsource.bikeshop.domain.ProductIntegrationTest@3514a4c0]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:99)
 	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:122)
@@ -600,8 +600,8 @@ Caused by: java.lang.IllegalArgumentException
 	at org.springframework.asm.ClassReader.<init>(Unknown Source)
 	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:53)
 	... 62 more
-2016-06-28 22:47:39,642 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [C:\work\projects\bikeshop\target\test-classes\META-INF\spring\applicationContext-jpa.xml]
-2016-06-28 22:47:39,716 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5ad851c9] to prepare test instance [com.springsource.bikeshop.domain.ProductIntegrationTest@3cebbb30]
+2016-06-28 23:42:27,524 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [C:\work\projects\bikeshop\target\test-classes\META-INF\spring\applicationContext-jpa.xml]
+2016-06-28 23:42:27,608 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5ad851c9] to prepare test instance [com.springsource.bikeshop.domain.ProductIntegrationTest@3cebbb30]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:99)
 	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:122)
@@ -686,8 +686,8 @@ Caused by: java.lang.IllegalArgumentException
 	at org.springframework.asm.ClassReader.<init>(Unknown Source)
 	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:53)
 	... 62 more
-2016-06-28 22:47:39,729 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [C:\work\projects\bikeshop\target\test-classes\META-INF\spring\applicationContext-jpa.xml]
-2016-06-28 22:47:39,816 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5ad851c9] to prepare test instance [com.springsource.bikeshop.domain.ProductIntegrationTest@7161d8d1]
+2016-06-28 23:42:27,613 [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [C:\work\projects\bikeshop\target\test-classes\META-INF\spring\applicationContext-jpa.xml]
+2016-06-28 23:42:27,666 [main] ERROR org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5ad851c9] to prepare test instance [com.springsource.bikeshop.domain.ProductIntegrationTest@7161d8d1]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:99)
 	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:122)

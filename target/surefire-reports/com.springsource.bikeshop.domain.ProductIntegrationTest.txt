@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.springsource.bikeshop.domain.ProductIntegrationTest
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 0, Errors: 9, Skipped: 0, Time elapsed: 1.656 sec <<< FAILURE!
-testFindEntries(com.springsource.bikeshop.domain.ProductIntegrationTest)  Time elapsed: 0.458 sec  <<< ERROR!
+Tests run: 9, Failures: 0, Errors: 9, Skipped: 0, Time elapsed: 1.446 sec <<< FAILURE!
+testFindEntries(com.springsource.bikeshop.domain.ProductIntegrationTest)  Time elapsed: 0.396 sec  <<< ERROR!
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:99)
 	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:122)
@@ -87,7 +87,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.springframework.asm.ClassReader.<init>(Unknown Source)
 	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:53)
 	... 62 more
-testFindAll(com.springsource.bikeshop.domain.ProductIntegrationTest)  Time elapsed: 0.119 sec  <<< ERROR!
+testFindAll(com.springsource.bikeshop.domain.ProductIntegrationTest)  Time elapsed: 0.11 sec  <<< ERROR!
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:99)
 	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:122)
@@ -172,7 +172,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.springframework.asm.ClassReader.<init>(Unknown Source)
 	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:53)
 	... 62 more
-testCount(com.springsource.bikeshop.domain.ProductIntegrationTest)  Time elapsed: 0.153 sec  <<< ERROR!
+testCount(com.springsource.bikeshop.domain.ProductIntegrationTest)  Time elapsed: 0.115 sec  <<< ERROR!
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:99)
 	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:122)
@@ -257,7 +257,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.springframework.asm.ClassReader.<init>(Unknown Source)
 	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:53)
 	... 62 more
-testFlush(com.springsource.bikeshop.domain.ProductIntegrationTest)  Time elapsed: 0.098 sec  <<< ERROR!
+testFlush(com.springsource.bikeshop.domain.ProductIntegrationTest)  Time elapsed: 0.095 sec  <<< ERROR!
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:99)
 	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:122)
@@ -342,7 +342,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.springframework.asm.ClassReader.<init>(Unknown Source)
 	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:53)
 	... 62 more
-testFind(com.springsource.bikeshop.domain.ProductIntegrationTest)  Time elapsed: 0.143 sec  <<< ERROR!
+testFind(com.springsource.bikeshop.domain.ProductIntegrationTest)  Time elapsed: 0.127 sec  <<< ERROR!
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:99)
 	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:122)
@@ -427,7 +427,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.springframework.asm.ClassReader.<init>(Unknown Source)
 	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:53)
 	... 62 more
-testSave(com.springsource.bikeshop.domain.ProductIntegrationTest)  Time elapsed: 0.137 sec  <<< ERROR!
+testSave(com.springsource.bikeshop.domain.ProductIntegrationTest)  Time elapsed: 0.131 sec  <<< ERROR!
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:99)
 	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:122)
@@ -512,7 +512,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.springframework.asm.ClassReader.<init>(Unknown Source)
 	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:53)
 	... 62 more
-testMarkerMethod(com.springsource.bikeshop.domain.ProductIntegrationTest)  Time elapsed: 0.059 sec  <<< ERROR!
+testMarkerMethod(com.springsource.bikeshop.domain.ProductIntegrationTest)  Time elapsed: 0.094 sec  <<< ERROR!
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:99)
 	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:122)
@@ -597,7 +597,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.springframework.asm.ClassReader.<init>(Unknown Source)
 	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:53)
 	... 62 more
-testSaveUpdate(com.springsource.bikeshop.domain.ProductIntegrationTest)  Time elapsed: 0.087 sec  <<< ERROR!
+testSaveUpdate(com.springsource.bikeshop.domain.ProductIntegrationTest)  Time elapsed: 0.09 sec  <<< ERROR!
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:99)
 	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:122)
@@ -682,7 +682,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.springframework.asm.ClassReader.<init>(Unknown Source)
 	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:53)
 	... 62 more
-testDelete(com.springsource.bikeshop.domain.ProductIntegrationTest)  Time elapsed: 0.108 sec  <<< ERROR!
+testDelete(com.springsource.bikeshop.domain.ProductIntegrationTest)  Time elapsed: 0.061 sec  <<< ERROR!
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:99)
 	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:122)
